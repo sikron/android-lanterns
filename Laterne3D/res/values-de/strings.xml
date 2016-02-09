@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Laterne3D</string>
+
+    <string name="preference">Einstellungen</string>
+    <string name="pendulum_preference">Pendel Effekt</string>
+    <string name="music_preference">Musik</string>
+    <string name="switch_preference">Laternen durchschaltbar</string>
+
+    <string name="error_no_opengl">Dieses Gerät unterstützt leider kein OpenGL ES 2.0.</string>
+    <string name="error_no_sensors">Dieses Gerät hat leider nicht die benötigten Sensoren, um die Laterne pendeln zu lassen.</string>
+
+</resources>

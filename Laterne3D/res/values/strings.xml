@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Laterne3D</string>
+
+    <string name="preference">Preferences</string>
+    <string name="pendulum_preference">Pendulum Effect</string>
+    <string name="music_preference">Music</string>
+    <string name="switch_preference">Switchable Lanterns</string>
+
+    <string name="error_no_opengl">This devices does not support OpenGL ES 2.0.</string>
+    <string name="error_no_sensors">This device does not provide the sensors necessary for the pendulum effect.</string>
+
+</resources>
