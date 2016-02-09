@@ -8,8 +8,12 @@ The app can be found in the Playstore https://play.google.com/store/apps/details
 
 # Prerequisites
 
-- open your Android SDK and download API level 17 SDK Platform and Google APIs
-- download also the Maps and USB from the extras
-- now clone the https://github.com/simpligility/maven-android-sdk-deployer
-- go into the maven-android-sdk-deployer directory and execute a `mvn install -P 4.2`. this will install the android runtime as dependency into your local maven repo and the android-maven-plugin can access it (see the pom.xml files)
-- the apps were built with API level 17, but you can of course try with another level...
+* open your Android SDK and download API level 17 SDK Platform and Google APIs
+* download also the Maps and USB from the extras
+* now clone the https://github.com/simpligility/maven-android-sdk-deployer
+* go into the maven-android-sdk-deployer directory and execute a `mvn install -P 4.2`. this will install the android runtime as dependency into your local maven repo and the android-maven-plugin can access it (see the pom.xml files)
+* the apps were built with API level 17, but you can of course try with another level...
+
+# Deprecated actually
+
+Actually using the android maven plugin is not recommended anymore, e.g. due to this issue with the not-official dependencies. So this repo is more like a backup and proof of concept, that also with maven building Android apps was/is possible.
